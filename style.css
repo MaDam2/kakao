@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+#page{
+    width: 960px;
+    height: 1200px; 
+    background: white; 
+    margin: 50px auto; 
+    padding: 20px; 
+    box-shadow: 10px 10px 10px;
+}
+#content{
+    height: 1000px;
+}
+#top{
+    padding: 20px; 
+    background: pink;
+}
+a{
+    text-decoration: none; 
+}
+#top a{
+    font-size: 20px;
+}
+a:hover{
+    background: gray; 
+    color: pink; 
+    padding: 5px;
+}
+.subject{
+    text-align: center;
+}
+#bottom{
+    text-align: center;
+    padding: 20px;
+}
+#divSearch{
+    width: 900px;
+    border: 2px solid pink;
+    padding: 10px;
+    margin: 10px auto;
+}
+table{
+    width: 920px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.title{
+    text-align: center;
+    background: pink;
+    color: gray;
+}
+.row:hover{
+    background: gray;
+    color: white;
+}
+#divPage{
+    width: 920px;
+    padding: 10px;
+    text-align: center;
+}
+#darken-background {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:100%;
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:10000;
+    overflow-y:scroll;
+}
+#lightbox {
+    width:700px;
+    margin:20px auto;
+    margin-top:200px;
+    padding:15px;
+    border: 1px solid #333333;
+    border-radius:5px;
+    background:white;
+    box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+    text-align:center;
+}

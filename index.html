@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>카카오 API</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+</head>
+<body>
+    <div id="page">
+        <div id="top">
+            <a href="blog.html">블로그검색</a>&nbsp;&nbsp;&nbsp;
+            <a href="book.html">도서검색</a>&nbsp;&nbsp;&nbsp;
+            <a href="local.html">지역검색</a>&nbsp;&nbsp;&nbsp;
+        </div>
+        <div id="content">
+            <div class="subject"><h1>[검색페이지]</h1></div>
+            <div id="divSearch">
+                <input type="text" id="txtQuery" value="">
+                <input type="button" id="btnSearch" value="검 색">
+                <select id="selSize">
+                    <option value="5">5행씩 출력</option>
+                    <option value="10">10행씩 출력</option>
+                    <option value="15">15행씩 출력</option>
+                    <option value="20">20행씩 출력</option>
+                </select>
+            </div>
+            <table id="tbl"></table>
+            <div id="divPage">
+                <button id="btnPre">◀</button>
+                <span id="spanPage"></span>
+                <button id="btnNext">▶</button>
+            </div>
+        </div>
+        <div id="bottom">
+            <h3>작성자 : 인천일보아카데미 홍길동</h3>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
